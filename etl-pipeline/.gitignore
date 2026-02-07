@@ -1,0 +1,37 @@
+# environment
+.env
+.env.*
+
+# airflow artifacts
+logs/
+airflow-webserver.pid
+airflow-scheduler.pid
+
+# temp files
+tmp/
+*.tmpss
+*.tempss
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# data exports (csv sementara hasil extract)
+*.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+
+# docker
+*.log
+docker-compose.override.yml
